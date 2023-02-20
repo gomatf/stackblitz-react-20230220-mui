@@ -8,7 +8,12 @@ export default function App() {
       <h1>Hello StackBlitz!</h1>
       <p>Start editing to see some magic happen :)</p>
 
-      <Button variant="contained">Sample Button</Button>
+      <Button variant="contained">
+        Sample Button
+      </Button>
+      <Button variant="outlined">
+        Example
+      </Button>
     </div>
   );
 }
