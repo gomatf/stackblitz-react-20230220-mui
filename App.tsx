@@ -1,19 +1,15 @@
 import * as React from 'react';
 import './style.css';
-import { Button } from '@mui/material';
+import * as Inputs from './Inputs';
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <h1>MUI samples</h1>
 
-      <Button variant="contained">
-        Sample Button
-      </Button>
-      <Button variant="outlined">
-        Example
-      </Button>
+      <h2>Inputs</h2>
+
+      <Inputs.SampleAutocomplete />
     </div>
   );
 }
